@@ -1,15 +1,15 @@
 log_level: INFO
 
-api_key: "223b4120c84aede5ec057d024a0ba641"
+# api_key: "223b4120c84aede5ec057d024a0ba641"
 
-logs_enabled: true
-logs_config:
-  use_http: true
-  use_tcp: false
+# logs_enabled: true
+# logs_config:
+#   use_http: true
+#   use_tcp: false
 
-logs:
-  - type: container
-    path: /var/log/containers/*.log
-    service: datadog-agent
-    source: openshift
-    sourcecategory: sourcecode
+# logs:
+#   - type: container
+#     path: /var/log/containers/*.log
+#     service: datadog-agent
+#     source: openshift
+#     sourcecategory: sourcecode
